@@ -1,18 +1,36 @@
+import Day from "./component/Day";
+import DayList from "./component/DayList";
+import Header from "./component/Header";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import EmptyPage from "./component/EmptyPage";
+import CreateWord from "./component/CreateWord";
+import CreateDay from "./component/CreateDay";
+import React from "react";
 
-import './App.css';
-import Hello from './component/Hello';
-import Welcome from './component/Welcome';
-import styles from "./App.module.css";
-import World from "./component/World";
 function App() {
-
   return (
-    <div className="App">
-      <Hello age={10} nationality={"Korea"} />
-      <Hello age={20} nationality={"Spain"} />
-      <Hello age={30} nationality={"Canada"}/>
-      <World city={"Madrid"}></World>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <DayList />
+          </Route>
+          <Route path="/day/:day">
+            <Day />
+          </Route>
+          <Route path="/create_word">
+            <CreateWord />
+          </Route>
+          <Route path="/create_day">
+            <CreateDay />
+          </Route>
+          <Route>
+            <EmptyPage />
+          </Route>
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 

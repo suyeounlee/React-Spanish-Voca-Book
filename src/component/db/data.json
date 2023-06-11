@@ -1,0 +1,107 @@
+{
+  "days": [
+    {
+      "id": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "day": 2
+    },
+    {
+      "id": 3,
+      "day": 3
+    },
+    {
+      "day": 4,
+      "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
+    },
+    {
+      "day": 6,
+      "id": 6
+    }
+  ],
+  "words": [
+    {
+      "id": 1,
+      "day": 1,
+      "eng": "book",
+      "esp": "libro",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "day": 2,
+      "eng": "car",
+      "esp": "coche",
+      "isDone": false
+    },
+    {
+      "id": 5,
+      "day": 3,
+      "eng": "school",
+      "esp": "escuela",
+      "isDone": false
+    },
+    {
+      "id": 6,
+      "day": 3,
+      "eng": "pencil",
+      "esp": "lapiz",
+      "isDone": false
+    },
+    {
+      "day": "3",
+      "eng": "window",
+      "esp": "ventana",
+      "isDone": false,
+      "id": 7
+    },
+    {
+      "day": "2",
+      "eng": "mouse",
+      "esp": "raton",
+      "isDone": false,
+      "id": 9
+    },
+    {
+      "day": "4",
+      "eng": "monkey",
+      "esp": "mono",
+      "isDone": true,
+      "id": 10
+    },
+    {
+      "day": "2",
+      "eng": "computer",
+      "esp": "ordenador",
+      "isDone": false,
+      "id": 11
+    },
+    {
+      "day": "1",
+      "eng": "cold",
+      "esp": "frio",
+      "isDone": false,
+      "id": 13
+    },
+    {
+      "day": "1",
+      "eng": "language",
+      "esp": "lenguaje",
+      "isDone": false,
+      "id": 14
+    },
+    {
+      "day": "1",
+      "eng": "backpack",
+      "esp": "mochila",
+      "isDone": false,
+      "id": 15
+    }
+  ]
+}
